@@ -50,6 +50,7 @@
         <div class="mission-content">
 
           <h2>Our Mission - we want to make you the team you always wanted to be.</h2>
+          <!-- solution code has h2 in content-wrapper only, not mission-content -->
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
@@ -66,20 +67,20 @@
       <div class="content-wrapper">
         <h2>Contact us, because you all need this.</h2>
           <div class="general-info">
-            <h3>General Information</h3>
-            <address>
-              <p>333 Main St, Lake Geneva, WI 53147<br>
-                555-555-5555<br>
-                hello@unplugged.com</p>
-            </address>
-          </div><!-- ends general-info col -->
 
-          <div class="facilitator">
-            <h3>Chat with a Facilitator</h3>
-              <address>
-                <p>555-555-5555<br>facilitator@unplugged.com</p>
-            </address>
-          </div><!-- ends facilitator col -->
+            <address class="contact-content">
+              <div>
+                <h4>General Information</h4>
+                  <p>333 Main St, Lake Geneva, WI 53147<br>
+                    555-555-5555<br>
+                    hello@unplugged.com</p>
+              </div><!-- closes General Info content -->
+
+              <div>
+                <h4>Chat with a Facilitator</h4>
+                  <p>555-555-5555<br>facilitator@unplugged.com</p>
+              </div><!-- closes facilitator content -->
+            </address><!-- contact content div ends -->
       </div><!-- content wrapper ends -->
 
     </section>
