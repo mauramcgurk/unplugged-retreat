@@ -91,13 +91,19 @@ textarea {
 
 header,
 footer {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 /* --------  Header Styles -------- */
 
 header .content-wrapper {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 header figure {
@@ -109,108 +115,19 @@ header figure {
 }
 
 header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+  flex-flow: row wrap;
+}
 
+header nav ul {
+  display: flex;
 }
 
 header nav ul li {
 
 }
-
-
-/*-------- Mobile Styles - Homepage --------*/
-
-.hero-area {
-
-}
-
-
-main .content-wrapper {
-
-}
-
-main .main-image {
-
-}
-
-main img {
-
-}
-
-h2 {
-
-}
-
-h3 {
-
-}
-
-p {
-
-}
-
-
-main .features {
-
-}
-
-main .features .content-wrapper {
-
-}
-
-main .features .features-items {
-
-}
-
-article .features-items .fontawesome-icon p {
-
-}
-
-article .features-item-description {
-
-}
-
-.reviews {
-
-}
-
-.reviews .content-wrapper {
-
-}
-
-article h3 {
-
-}
-
-article p {
-
-}
-
-
-
-/* --------  Aside Styles -------- */
-
-aside .content-wrapper {
-
-}
-
-aside .form-description {
-
-}
-
-
-aside .form {
-
-}
-
-aside h3 {
-
-}
-aside p {
-
-}
-
-
-/*-------- Footer Styles --------*/
 
 footer .content-wrapper {
 
@@ -240,12 +157,16 @@ footer .social {
 
 }
 
-.social-icons {
-
+footer .social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-social-icons p {
-
+footer .social p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .copyright {
@@ -256,12 +177,128 @@ social-icons p {
 
 }
 
+/*-------- Mobile Styles - Homepage --------*/
+
+.hero-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* --------  Aside Styles -------- */
+
+aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+aside .content-wrapper {
+
+}
+
+aside .form-description {
+
+}
+
+
+aside .form {
+
+}
+
+aside h3 {
+
+}
+
+aside p {
+
+}
+
+
+main .content-wrapper {
+
+}
+
+main .main-image {
+
+}
+
+main img {
+
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+p {
+
+}
+
+
+.features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+main .features .content-wrapper {
+
+}
+
+.features .features-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+article .features-items .fontawesome-icon p {
+
+}
+
+article .features-item-description {
+
+}
+
+.reviews {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.reviews .content-wrapper {
+
+}
+
+
+article h3 {
+d isplay: flex;
+justify-content: center;
+align-items: center;
+}
+
+article p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 
 /*-------- About Page Styles --------*/
 
 .mission {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 .mission .content-wrapper {
@@ -274,6 +311,13 @@ social-icons p {
 
 .map figure {
 
+}
+
+.contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 .contact-section .content-wrapper {
@@ -292,11 +336,17 @@ social-icons p {
 /*-------- FAQ Page Styles --------*/
 
 .faq {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 .faq .content-wrapper {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 .faq-content {
