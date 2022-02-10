@@ -100,7 +100,7 @@ header .content-wrapper {
 
 }
 
-figure {
+header figure {
 
 }
 
@@ -108,20 +108,18 @@ figure {
 
 }
 
-nav {
+header nav {
 
 }
 
-nav ul li {
+header nav ul li {
 
 }
 
 
+/*-------- Mobile Styles - Homepage --------*/
 
-
-/* --------  Body Styles -------- */
-
-main .hero-area {
+.hero-area {
 
 }
 
@@ -260,9 +258,52 @@ social-icons p {
 
 
 
+/*-------- About Page Styles --------*/
+
+.mission {
+
+}
+
+.mission .content-wrapper {
+
+}
+
+.mission-content {
+
+}
+
+.map figure {
+
+}
+
+.contact-section .content-wrapper {
+
+}
+
+.general-info {
+
+}
+
+.contact-content {
+
+}
 
 
-/*-------- Mobile Styles --------*/
+/*-------- FAQ Page Styles --------*/
+
+.faq {
+
+}
+
+.faq .content-wrapper {
+
+}
+
+.faq-content {
+
+}
+
+
 
 
 /* ==========================================================================
