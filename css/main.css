@@ -99,11 +99,16 @@ footer {
 
 /* --------  Header Styles -------- */
 
+header {
+  padding: 15px 0;
+}
+
 header .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin: 0;
 }
 
 header figure {
@@ -119,18 +124,28 @@ header nav {
   justify-content: space-around;
   align-items:center;
   flex-flow: row wrap;
+  width: 60%;
+  padding: 15px 0;
 }
 
 header nav ul {
   display: flex;
+  width: 45%;
 }
 
 header nav ul li {
 
 }
 
-footer .content-wrapper {
+footer {
+  padding: 50px 10px 60px 60px;
+}
 
+footer .content-wrapper {
+  width: 55%;
+  margin: 50px 0;
+  /******** display: flex;
+  flex-flow: row wrap; ********/
 }
 
 footer .footer-content {
@@ -169,8 +184,12 @@ footer .social p {
   align-items: center;
 }
 
-.copyright {
+footer p {
+   margin: 0;
+}
 
+.copyright {
+display: flex;
 }
 
 .copyright p {
@@ -183,7 +202,29 @@ footer .social p {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 50px 20px;
 }
+
+.hero-area .content-wrapper {
+  width: 100%;
+}
+
+/******** .hero-area .main-image {
+  width: 100%;
+} ********/
+
+.hero-area h2 {
+
+}
+
+.header-divider {
+  width: 100%;
+}
+
+.form-description {
+  margin-bottom: 50px;
+}
+
 /* --------  Aside Styles -------- */
 
 aside {
@@ -191,6 +232,7 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  padding: 30px 55px 20px 20px;
 }
 
 aside .content-wrapper {
@@ -245,10 +287,15 @@ p {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  padding: 50px 65px 25px 25px;
 }
 
 main .features .content-wrapper {
 
+}
+
+.features h2 {
+  padding-bottom: 65px;
 }
 
 .features .features-items {
@@ -258,12 +305,24 @@ main .features .content-wrapper {
   flex-flow: row wrap;
 }
 
-article .features-items .fontawesome-icon p {
+.features-items .fontawesome-icon p article {
 
 }
 
-article .features-item-description {
+.features-item-description article {
 
+}
+
+.features article {
+  width: 55%;
+}
+
+.features p {
+  margin: 0;
+}
+
+article {
+  padding: 30px;
 }
 
 .reviews {
@@ -271,15 +330,20 @@ article .features-item-description {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  padding: 50px 15px;
 }
 
 .reviews .content-wrapper {
 
 }
 
+.reviews h3 {
+  width: 80%;
+}
+
 
 article h3 {
-d isplay: flex;
+display: flex;
 justify-content: center;
 align-items: center;
 }
