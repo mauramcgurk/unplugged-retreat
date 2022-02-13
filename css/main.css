@@ -506,17 +506,17 @@ main .features .content-wrapper {
     }
 
     header .content-wrapper {
-        width:
+        width: 85%;
         justify-content:
     }
 
 
     header nav {
-        width:
+        width: 16%;
     }
 
     header nav ul {
-      justify-content: flex-end;
+      justify-content: flex-end; /* ? space-between? */
     }
 
     .header-divider {
@@ -529,7 +529,7 @@ main .features .content-wrapper {
     aside .content-wrapper {
         margin: 50px 0;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-between; /* or -around? */
         flex-flow: nowrap;
     }
 
@@ -543,8 +543,8 @@ main .features .content-wrapper {
 
     .features article {
       display: flex;
-      justify-content:
-      align-items:
+      justify-content: center;
+      align-items: center;
       flex-flow: column;
       flex-basis: 150px;
     }
@@ -571,7 +571,7 @@ footer .content-wrapper {
 
 .footer-content {
   display:flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -598,14 +598,14 @@ footer .copyright {
     .faq h2 {
         width: 100%;
     }
-    
+
 
 /* ==========================================================================
    About Page
    ========================================================================== */
 
    .mission-content {
-        display:
+        display: flex;
         justify-content: space-between;
         align-items:
     }
@@ -619,7 +619,7 @@ footer .copyright {
     }
 
     .contact-content {
-        display:
+        display: flex;
         justify-content:
         align-items:
 }
