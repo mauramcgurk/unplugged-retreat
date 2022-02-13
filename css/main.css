@@ -363,6 +363,7 @@ article p {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  padding: 50px 20px;
 }
 
 .mission .content-wrapper {
@@ -382,6 +383,7 @@ article p {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  padding: 50px 20px;
 }
 
 .contact-section .content-wrapper {
@@ -404,6 +406,7 @@ article p {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  padding: 50px 20px;
 }
 
 .faq .content-wrapper {
@@ -414,7 +417,7 @@ article p {
 }
 
 .faq-content {
-
+  margin: 0;
 }
 
 
