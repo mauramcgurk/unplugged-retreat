@@ -629,6 +629,35 @@ footer .copyright {
 
    @media only screen and (min-width: 1200px) {
    /*Desktop styles here*/
+
+   /* General styles */
+   .content-wrapper {
+       max-width: 1500px;
+       margin: 25px 0;
+   }
+
+   /* Header styles */
+
+   header {
+     justify-content: space-between;
+     margin: 25px 100px;
+   }
+
+   .header-divider {
+       display: none;
+   }
+
+   nav {
+     /* margin: 25px 0 0 100px;
+     padding: 0 120px 0 0; */
+     width: 10%;
+   }
+
+   .hero-area .content-wrapper h1 {
+     width: 55%;
+     padding: 45px 0 0 100px; 
+   }
+
    }
 
 /* ==========================================================================
