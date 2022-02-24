@@ -655,10 +655,58 @@ footer .copyright {
 
    .hero-area .content-wrapper h1 {
      width: 55%;
-     padding: 45px 0 0 100px; 
+     padding: 45px 0 0 100px;
    }
 
+
+   /* Aside styles */
+
+   aside .content-wrapper {
+     display: flex;
+     justify-content: space-around;
+     padding: 50px 160px;
    }
+
+   .form-description, .form {
+     flex-basis: 27%;
+   }
+
+   /* Features styles */
+   .features .content-wrapper {
+     /* padding: 95px 115px; */
+     flex-flow: row wrap;
+     display:flex;
+     justify-content: space-between;
+   }
+
+   .features-items {
+     margin: 0 195px;
+   }
+
+   .features-items article {
+     flex-basis: 13%;
+     flex-flow: row wrap;
+     justify-content: space-between;
+     padding: 20px 65px;
+   }
+
+ .features .content-wrapper h2 {
+   text-align: left;
+   flex-basis: 73%;
+ }
+
+ /* Reviews styles */
+ .reviews .content-wrapper {
+   display: flex;
+ }
+
+ .reviews article {
+   flex-basis: 35%;
+   justify-content: flex-end;
+ }
+
+
+
 
 /* ==========================================================================
    Print styles.
