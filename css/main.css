@@ -639,18 +639,21 @@ footer .copyright {
    /* Header styles */
 
    header {
+     display: flex;
      justify-content: space-between;
-     margin: 25px 100px;
+     margin: 25px 0px;
+     width: 100%;
    }
 
    .header-divider {
        display: none;
    }
 
-   nav {
+   nav ul li {
      /* margin: 25px 0 0 100px;
      padding: 0 120px 0 0; */
-     width: 10%;
+     width: 15%;
+     justify-content: space-between;
    }
 
    .hero-area .content-wrapper h1 {
@@ -705,8 +708,70 @@ footer .copyright {
    justify-content: flex-end;
  }
 
+ .reviews .content-wrapper h2 {
+   margin-bottom: 95px;
+ }
+
+ /* Footer styles */
+
+ footer {
+   display:flex;
+   width: 100%;
+ }
 
 
+
+ .contact, .social {
+   flex-basis: 16%;
+   justify-content: space-between;
+ }
+
+ /* ==========================================================================
+    About Page
+    ========================================================================== */
+.mission {
+  display: flex;
+  justify-content: center;
+  flex-basis: 80%;
+  margin: 0 100px;
+}
+
+.mission-content p {
+  justify-content: space-between;
+  flex-basis: 40%;
+}
+
+.contact-section {
+  display: flex;
+  justify-content: center;
+  flex-basis: 80%;
+  margin: 0 100px;
+}
+
+.contact-section .content-wrapper {
+  display: flex;
+  flex-basis: 80%
+}
+
+address .contact-content h4, p {
+  flex-basis: 25%;
+}
+
+/* ==========================================================================
+   FAQ Page
+   ========================================================================== */
+
+faq .content-wrapper {
+  display: flex;
+  flex-basis: 80%;
+  margin: 0 100px;
+}
+
+faq-content {
+  display: flex;
+  flex-basis: 35%;
+  justify-content: space-between;
+}
 
 /* ==========================================================================
    Print styles.
