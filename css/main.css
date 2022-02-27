@@ -102,6 +102,10 @@ ol {
 
 }
 
+li {
+  list-style-type: none;
+}
+
 a {
   color: #e2e3ed;
   text-decoration: none;
@@ -119,22 +123,22 @@ h1 {
 }
 
 h2 {
-  font-family: 'Poppins', sans-serif;
   font-size: 2.25em;
+  line-height: 1.4em;
 }
 
 h3 {
   font-size: 1.5em;
+  line-height: 1.4em;
 }
 
 h4 {
   font-size: 1.5em;
 }
 
-
-
 p {
   font-size: .875em;
+  line-height: 1.4em;
 }
 
 img {
@@ -146,14 +150,10 @@ figure {
 }
 
 address {
-
+  font-style: normal;
 }
 
 .content-wrapper {
-
-}
-
-   .content-wrapper {
      width: 90%;
      margin: 50px 0;
    }
@@ -649,6 +649,8 @@ footer .contact {
 
 footer .copyright {
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 
