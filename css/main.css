@@ -112,19 +112,20 @@ a {
 h2 {
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
-  font-size: 1.875em;
+  font-size: 3em;
+  line-height: 1.2;
 }
 
 h3,
 h4 {
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
-  font-size: 1.125em;
+  font-size: 1.5em;
   margin: 20px 0;
 }
 
 p {
-  font-size: .875em;
+  font-size: 1.125em;
   line-height: 1.285;
 }
 
@@ -198,6 +199,7 @@ header nav ul {
   display: flex;
   justify-content: space-around;
   width: 100%;
+  padding-left: 0;
 }
 
 header nav ul li {
@@ -264,7 +266,7 @@ footer .copyright {
 }
 
 .hero-area h1 {
-  font-size: 2.25em;
+  font-size: 2.75em;
   font-family: 'Poppins', Helvetica, Arial, sans-serif;
   font-weight: 500;
   line-height: 1.2;
@@ -312,6 +314,10 @@ input[type=button] {
   text-transform: uppercase;
 }
 
+aside p {
+  padding-right: 20px;
+}
+
 /* aside .content-wrapper {
 
 }
@@ -325,9 +331,7 @@ aside .form {
 
 }
 
-aside p {
 
-}
 
 
 /* Features */
@@ -368,7 +372,13 @@ aside p {
 .features p {
   text-align: center;
   margin: 0;
+  padding: 10px 15px;
 }
+
+/* .features-item-description p {
+  width: 45%;
+  padding:
+} */
 
 /* Reviews */
 
@@ -382,6 +392,7 @@ aside p {
 .reviews h2 {
   margin-bottom: 40px;
   line-height: 1;
+  padding-right: 45px;
 }
 
 .reviews h3 {
