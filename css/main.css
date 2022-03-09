@@ -112,20 +112,22 @@ a {
 h2 {
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
-  font-size: 3em;
+  font-size: 1.75em;
   line-height: 1.2;
+  margin: 0;
+  padding: 20px 0;
 }
 
 h3,
 h4 {
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
-  font-size: 1.5em;
+  font-size: 1.1em;
   margin: 20px 0;
 }
 
 p {
-  font-size: 1.125em;
+  font-size: .875em;
   line-height: 1.285;
 }
 
@@ -143,7 +145,7 @@ address {
 
 .content-wrapper {
      width: 90%;
-     margin: 50px 0;
+     margin: 10px 0;
    }
 
 /* -------- Base Header - Footer Styles -------- */
@@ -217,7 +219,7 @@ footer p {
 
 footer .content-wrapper {
   width: 55%;
-  margin: 50px 0;
+  margin: 20px 0;
 }
 
 footer .contact {
@@ -228,6 +230,7 @@ footer .social-icons {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-basis: 65%;
 }
 
 footer .social-icons p {
@@ -270,6 +273,8 @@ footer .copyright {
   font-family: 'Poppins', Helvetica, Arial, sans-serif;
   font-weight: 500;
   line-height: 1.2;
+  margin: 0;
+  padding: 10px 10px;
 }
 
 
@@ -289,7 +294,7 @@ color: #e2e3ed;
 }
 
 aside .form {
-  margin-top: 30px;
+  margin: 50px 0;
 }
 
 input[type=text] {
@@ -318,24 +323,6 @@ aside p {
   padding-right: 20px;
 }
 
-/* aside .content-wrapper {
-
-}
-
-aside .form-description {
-
-}
-
-
-aside .form {
-
-}
-
-
-
-
-/* Features */
-
 .features {
   display: flex;
   justify-content: center;
@@ -348,9 +335,9 @@ aside .form {
 
 } */
 
-.features h2 {
+/* .features h2 {
   margin-bottom: 60px;
-}
+} */
 
 .features article {
   width: 63%;
@@ -362,17 +349,18 @@ aside .form {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin-bottom: 20px;
 }
 
 .features i {
 	font-size: 3.75em;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .features p {
   text-align: center;
   margin: 0;
-  padding: 10px 15px;
+  /* padding: 0px 10px; */
 }
 
 /* .features-item-description p {
@@ -390,13 +378,13 @@ aside .form {
 }
 
 .reviews h2 {
-  margin-bottom: 40px;
+  /* margin-bottom: 40px; */
   line-height: 1;
-  padding-right: 45px;
+  /* padding-right: 45px; */
 }
 
 .reviews h3 {
-  width: 55%;
+  width: 60%;
   margin: 20px 0;
 }
 
