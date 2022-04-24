@@ -398,7 +398,8 @@ aside p {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  background-color: #527158
+  background-color: #527158;
+  padding-bottom: 50px;
 }
 
 .map figure {
@@ -422,6 +423,7 @@ aside p {
   align-items: center;
   flex-flow: row wrap;
   background-color: #2a423a;
+  padding: 50px 0;
 }
 
 /* .contact-section .content-wrapper {
@@ -750,6 +752,7 @@ footer .copyright {
         justify-content: space-between;
         align-items: center;
         padding-top: 20px;
+        padding-bottom: 50px;
     }
 
     .mission-content p {
